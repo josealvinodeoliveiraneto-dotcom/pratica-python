@@ -1,1 +1,13 @@
+Leia um número e: Mostre se ele é par positivo, par negativo, impar positivo, impar negativo ou
+neutro
 
+num = float(input("Digite um número: "))
+
+if num == 0:
+    print("O número é neutro")
+else:
+    tipo = "par" if num % 2 == 0 
+    else "impar"
+    polaridade = "positivo" if num > 0 
+    else "negativo"    
+    print("O número é {tipo}+{polaridade}")
