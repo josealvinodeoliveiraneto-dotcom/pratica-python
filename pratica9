@@ -1,1 +1,7 @@
+Leia um valor e: Converter para float; Mostre a metade
 
+valor = int(input("Digite um número: "))
+
+metade = float(valor / 2)
+
+print("A metade de {valor} é {metade}")
