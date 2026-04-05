@@ -1,1 +1,8 @@
+Leia um valor e: Mostre o tipo; Se for numérico (após conversão) → mostre o quadrado
 
+entrada = input("Digite um valor: ")
+
+print(f"Tipo original: {type(entrada)}")
+
+    valor = float(entrada)
+    print("O quadrado de {valor} é: {valor**2}")
